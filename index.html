@@ -5,55 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ออแอ้</title>
     <link rel="stylesheet" href="css/custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <img src="images/header.png" alt="" " style="width: 100%; height: auto;" >
-    <div style="padding: 10px;">
-        <h1 class="txt-upper" style="text-align: center;">suksawat saelim</h1>
-        <h3 style="text-align: center;">Nakhon Pathom Rajabhat University</h3>
-        <hr>
-        <div class="m-card">
+    <section class="mainlayout">
+        <nav>
+            <div class="logo">
+                <img src="images/A001.PNG" alt="" style="border-radius: 50%; width: 30px; margin-right: 10px;">
+                <h1 class="text-h1">MyWEB</h1>
+            </div>
+
+            <div >
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#edu">Education</a></li>
+                    <li><a href="#exp">Experience</a></li>
+                    <li><a href="#ski">Skill</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="banner">
+            <img src="images/header.png" alt="" " style="width: 100%; height: auto;" >
+        </section>
+
+        <section class="info">
+            <img src="images/A001.PNG" alt="" class="info-image">
+            <div class="info-text">
+                <p style="color: #ffffff; font-size: 32px; font-weight: bold;">Mr.Suksawat Saelim</p>
+                <p>Information Technology Program, Science and Technology Faculty</p>
+                <p>Nakhon Pathom Rajabhat University</p>
+
+            </div>   
+        </section>
+
+        <hr style="border-style: dashed;">
+    
+
+        <section class="m-card">
             <div class="card">
                 <a href="https://www.npru.ac.th/index.php">ไปยังเว็บไซต์หน่วยงาน</a>
             </div>
             <div class="card">
                 <a href="contact.html">ติตต่อฉัน</a>
             </div>
-        </div>
-    
-        <br>
-        <h3 style="text-align: center;">ประสบการณ์การทำงาน</h3>
-        <div class="experience">
-            <!-- <ul>
-                <li>2024-Present Tesla Company</li>
-                <li>2022-2024 CPRAM</li>
-                <li>2010-2022 สถาบันการจัดการปัญญาภิวัฒน์</li>
-                <li>2000-2010 Thai Herbal</li>
-            </ul> -->
-            <table>
-                <!-- <tr>
-                    <th>Experience</th>
-                    <th>Year</th>
-                </tr> -->
-                <tr>
-                    <td style="width: 400px;">Lecturer at Nakhon Pathom Rajabhat University</td>
-                    <td>2017-Present</td>
-                </tr>
-                <tr>
-                    <td>Part-time job at Curtin University, Australia</td>
-                    <td>Apr 2014-Aug 2014</td>
-                </tr>
-                <tr>
-                    <td>Lecturer at Nakhon Pathom Rajabhat University</td>
-                    <td>2009-2012</td>
-                </tr>
-                <tr>
-                    <td>Lecturer at Songkhla Rajabhat University</td>
-                    <td>1999-2009</td>
-                </tr>
-            </table>
-        </div>
-    </div>
+        </section>
+
+        <section>
+            <br>
+            <h2 class="topic" id="exp">Experience</h2>
+            <div class="experience">
+                <table>
+                    <tr>
+                        <td style="width: 400px;">Lecturer at Nakhon Pathom Rajabhat University</td>
+                        <td>2017-Present</td>
+                    </tr>
+                    <tr>
+                        <td>Part-time job at Curtin University, Australia</td>
+                        <td>Apr 2014-Aug 2014</td>
+                    </tr>
+                    <tr>
+                        <td>Lecturer at Nakhon Pathom Rajabhat University</td>
+                        <td>2009-2012</td>
+                    </tr>
+                    <tr>
+                        <td>Lecturer at Songkhla Rajabhat University</td>
+                        <td>1999-2009</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="topic" id="ski">SKILL</h2>
+            <ul>
+                <li>JAVA</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>Figma</li>
+                <li>Adobe XD</li>
+                <li>MySQL</li>
+                <li>PHP</li>
+            </ul>
+        </section>
+
+        <section>    
+            <h2 class="topic" id="edu">EDUCATION</h2>
+            <ul>
+                <li>M.Sc. in Computer Science, Prince of Songkhla University, Songkhla, Thailand -- [September 2008]</li>
+                <li>B.Sc. in Computer Science, Songkhla Rajabhat Institute, Songkhla, Thailand -- [March 1999]</li>
+            </ul>
+        </section>
+
+
+        <footer>
+            <p style="font-family: 'Kanit', sans-serif;color: rgb(1, 1, 1);">เทคโนโลยีสารสนเทศ<br>มหาวิทยาลัยราชภัฏนครปฐม</p>
+        </footer>
+    </section>
+
 </body>
 </html>

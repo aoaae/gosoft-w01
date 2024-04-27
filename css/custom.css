@@ -2,12 +2,82 @@ html,body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Kanit', sans-serif;
+
+    background-image: linear-gradient(to right, #0057c1, #287cd4, #579fe1, #89c2ed, #bfe3f8);
 }
-a {
-    text-decoration: none;
-    color: #2a3cff;
+
+.mainlayout {
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 10px;
 }
+
+nav{
+    /* border: 3px solid greenyellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    /* border: 3px solid rgb(255, 47, 172); */
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin: auto 10px; 
+}
+
+.menu{
+    /* border: 3px solid rgb(255, 47, 172); */
+    /* width: 500px; */
+    display: flex;
+    list-style: none;
+    text-align: right;
+}
+
+li {
+    margin-right: 20px;
+}
+
+/* ----------- section footer ----------- */
+footer{
+    background-color: #e2e0de;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+   
+}
+
+/* ----------- section info ----------- */
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.info-text {
+    background-color: #eb7c41;
+    width: 500px;
+    border-radius: 10px;
+    padding: 1px 40px;
+    text-align: left;
+}
+
+/* ----------- section card ----------- */
 .m-card {
     display: flex;
     justify-content: space-between;
@@ -16,6 +86,7 @@ a {
     width: 90%;
     margin: auto;
 }
+
 .card {
     border: 1px solid rgb(223, 223, 223);
     width: 80%;
@@ -32,10 +103,7 @@ a {
     align-items: center;
 }
 
-.txt-upper {
-    text-transform: uppercase;
-}
-
+/* ----------- section experience ----------- */
 .experience {
     display: flex;
     justify-content: center;
@@ -51,31 +119,73 @@ table {
     font-family: sans-serif;
     font-size: 0.8rem;
     letter-spacing: 1px;
-  }
-   caption {
+}
+caption {
     caption-side: bottom;
     padding: 10px;
     font-weight: bold;
-  }
-   thead,
-  tfoot {
+}
+thead, tfoot {
     background-color: rgb(228 240 245);
-  }
-   th,
-  td {
+}
+th, td {
     border: 1px solid rgb(160 160 160);
     padding: 8px 10px;
-  }
-   td:last-of-type {
+}
+td:last-of-type {
     text-align: center;
-  }
-   tbody > tr:nth-of-type(even) {
+}
+tbody > tr:nth-of-type(even) {
     background-color: rgb(237 238 242);
-  }
-   tfoot th {
+}
+tfoot th {
     text-align: right;
-  }
-   tfoot td {
+}
+tfoot td {
     font-weight: bold;
-  }
+}
  
+
+/* ----------- other ----------- */
+.topic {
+    background-color: #E1F7F5;
+    text-transform: uppercase;
+    padding: 5px 15px;
+}
+
+.button {
+    color: rgb(255, 255, 255);
+    background-color: #0b4990;
+    padding: 8px 24px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #2a3cff;
+}
+
+/* ----------- contact ----------- */
+.card-contact {
+    border: 1px solid rgb(78, 113, 253);
+    border-radius: 5px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-contact-header{
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgb(220, 220, 220);
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+.card-text {
+    padding: 10px 20px;
+    color: #2a3cff;
+}
