@@ -167,6 +167,10 @@ a {
     color: #2a3cff;
 }
 
+table, th, td {
+    border: 0px ;
+  }
+
 /* ----------- contact ----------- */
 .card-contact {
     border: 1px solid rgb(78, 113, 253);
